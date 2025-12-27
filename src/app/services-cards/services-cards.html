@@ -1,0 +1,67 @@
+<div class="container my-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row">
+
+    <!-- Software Development -->
+    <div class="col-md-3 mb-4" routerLink="/service-software" style="cursor:pointer">
+      <div class="card h-100 shadow text-center p-3 d-flex flex-column justify-content-between service-card">
+        <img src="software.jpg" alt="Software Development" class="mb-3" style="height:100px; object-fit:contain;">
+        <div>
+          <h5>Software Development</h5>
+          <p>Custom software solutions for enterprises</p>
+        </div>
+        <button class="btn btn-primary mt-3">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Cloud & DevOps -->
+    <div class="col-md-3 mb-4" routerLink="/service-cloud" style="cursor:pointer">
+      <div class="card h-100 shadow text-center p-3 d-flex flex-column justify-content-between service-card">
+        <img src="cloud.jpg" alt="Cloud & DevOps" class="mb-3" style="height:100px; object-fit:contain;">
+        <div>
+          <h5>Cloud & DevOps</h5>
+          <p>Scalable and secure cloud solutions</p>
+        </div>
+        <button class="btn btn-primary mt-3">Learn More</button>
+      </div>
+    </div>
+
+    <!-- AI & Analytics -->
+    <div class="col-md-3 mb-4" routerLink="/service-ai" style="cursor:pointer">
+      <div class="card h-100 shadow text-center p-3 d-flex flex-column justify-content-between service-card">
+        <img src="ai.jpg" alt="AI & Analytics" class="mb-3" style="height:100px; object-fit:contain;">
+        <div>
+          <h5>AI & Analytics</h5>
+          <p>Data-driven insights & AI solutions</p>
+        </div>
+        <button class="btn btn-primary mt-3">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Cyber Security -->
+    <div class="col-md-3 mb-4" routerLink="/service-cyber" style="cursor:pointer">
+      <div class="card h-100 shadow text-center p-3 d-flex flex-column justify-content-between service-card">
+        <img src="cyber.jpg" alt="Cyber Security" class="mb-3" style="height:100px; object-fit:contain;">
+        <div>
+          <h5>Cyber Security</h5>
+          <p>Protecting digital assets and infrastructure</p>
+        </div>
+        <button class="btn btn-primary mt-3">Learn More</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Optional CSS for hover effect -->
+<style>
+  .service-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .service-card button {
+    pointer-events: none; /* Clicking button still triggers routerLink */
+  }
+</style>
