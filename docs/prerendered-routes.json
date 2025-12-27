@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "/nestdigital-angular": {},
+    "/nestdigital-angular/about": {},
+    "/nestdigital-angular/contact": {},
+    "/nestdigital-angular/service-ai": {},
+    "/nestdigital-angular/service-cloud": {},
+    "/nestdigital-angular/service-cyber": {},
+    "/nestdigital-angular/service-software": {},
+    "/nestdigital-angular/services": {}
+  }
+}
