@@ -12,6 +12,6 @@ export default `<!doctype html>
 </script>
   <app-root></app-root>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="main-RMJDNWAG.js" type="module"></script></body>
+<script src="main-XPS4XTVP.js" type="module"></script></body>
 </html>
 `;
